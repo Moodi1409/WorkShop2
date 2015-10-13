@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFxController">
+   <children>
+      <Label layoutX="20.0" layoutY="6.0" prefHeight="23.0" prefWidth="267.0" text="Welcome to The happy pirate">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="28.0" text="yacht club">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="startt" layoutX="121.0" layoutY="60.0" mnemonicParsing="false" onAction="#Startt" text="Start" />
+   </children>
+</AnchorPane>
